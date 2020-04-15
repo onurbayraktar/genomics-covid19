@@ -104,6 +104,7 @@ def main():
     # We need to process each file; so we have a loop in here #
     for file in range(2):
         fileManipulator.clearFileContents(listOfFileNamesForFormatted[file])    # Clearing the previous contents #
+        fileManipulator.writeSequence(listOfFileNamesForFormatted[file], "KMer : Rev.Comp. : KMer Freq : Total Freq (KMer + Rev.Comp.)")
         currentFile = listOfFileNames[file]
         currentSequence = fileManipulator.readSequence(currentFile)
         kMersReturned = findMostCommonKMers(currentSequence)

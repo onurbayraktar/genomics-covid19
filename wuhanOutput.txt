@@ -1,3 +1,4 @@
+KMer : Rev.Comp. : KMer Freq : Total Freq (KMer + Rev.Comp.)
 ttgtt : aacaa : 102 : 95
 tgtta : taaca : 101 : 71
 aacaa : ttgtt : 99 : 101
